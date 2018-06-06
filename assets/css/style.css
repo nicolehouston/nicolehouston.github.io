@@ -9,7 +9,7 @@ border-bottom: solid 3px #a0a5a5;
 
 #name {
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Pacifico', cursive;
     font-size: 30px;
     font-weight: bold;
 }
@@ -20,7 +20,7 @@ border-bottom: solid 3px #a0a5a5;
 }
 
 .container {
-    width: 95%;
+    width: 90%;
     height: auto;
     margin-top: 20px;
     background-color: white;
@@ -97,6 +97,20 @@ border-bottom: solid 3px #a0a5a5;
     position: fixed;
     left: 0;
     bottom: 0;
+}
+
+.connect {
+    padding: 15px;
+}
+
+.link {
+    color: black;
+    line-height: 40px;
+}
+
+.link:hover {
+    color: tomato;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 640px) {
