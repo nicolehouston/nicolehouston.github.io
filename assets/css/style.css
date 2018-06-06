@@ -1,0 +1,107 @@
+body {
+    background-image: url("../images/greyfloral.png");
+}
+
+#header {
+background-color: #a5c8ce;
+border-bottom: solid 3px #a0a5a5;
+}
+
+#name {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contentHeader {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.container {
+    width: 95%;
+    height: auto;
+    margin-top: 20px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+#profileSection {
+    height: auto;
+    overflow: auto;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#profilePic {
+    width: 250px;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: left;
+    padding-right: 15px;
+}
+
+#aboutMe {
+    padding-top: 15px;
+}
+
+.project {
+    padding: 10px;
+}
+
+.project:hover .overlay{
+    opacity: 1;
+}
+
+.projectPic {
+    width: 100%;
+}
+
+.centered {
+    color: black;
+    font-size: 40px;
+    font-family: 'Cabin Sketch', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #a5c8ce;
+    padding: 10px; 
+  }
+
+.card {
+    margin: 10px;
+}
+
+#footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: #a0a5a5;
+    height: 40px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+@media screen and (max-width: 640px) {
+    #profilePic {
+        width: 100%;
+        height: auto;
+    }
+}
