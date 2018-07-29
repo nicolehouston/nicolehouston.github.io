@@ -67,7 +67,6 @@ h1 {
 .card {
     margin-top: 30px;
     height: 200px;
-    width: 250px;
 }
 
 .card:hover {
@@ -129,3 +128,23 @@ footer {
     text-align: center;
 }
 
+.iconBig {
+    width: 75px;
+    margin-right: 20px;
+}
+
+.socialIcons {
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.skillIcon {
+    width: 50px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.skillName {
+    font-size: 25px;
+}
