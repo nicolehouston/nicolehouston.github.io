@@ -58,7 +58,6 @@ h1 {
 }
 
 .aboutMe {
-    text-indent: 25px;
     font-size: 20px;
     margin-top: 20px;
     margin-left: 10px;
@@ -67,6 +66,8 @@ h1 {
 
 .card {
     margin-top: 30px;
+    height: 200px;
+    width: 250px;
 }
 
 .card:hover {
@@ -74,6 +75,57 @@ h1 {
     transition: 0.2s;
 }
 
-.projectLink {
-    color: black;
+footer {
+    background-color: #54557f;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    border-top: 2px solid black;
 }
+
+.projectLink:hover {
+    text-decoration: underline;
+}
+
+.card-image {
+    position: relative;
+}
+
+.projectPic {
+    height: 200px;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #54557f;
+}
+
+.card-image:hover .overlay {
+    opacity: 1;
+}
+
+.projectTitle {
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
