@@ -22,19 +22,16 @@ body {
     height: auto;
 }
 
-nav {
-    height: 75px;
-}
-
 h1 {
     font-family: 'Courgette', cursive;
     text-align: center;
+    margin-top: 10px;
 }
 
 .title {
     text-align: center;
     font-size: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .profilePic {
@@ -155,4 +152,10 @@ footer {
     margin-left: 50px;
 }
 
+.myLogo {
+    width: 150px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
 
