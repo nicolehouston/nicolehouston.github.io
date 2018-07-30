@@ -1,20 +1,23 @@
+.container {
+    background-color: rgba(197,173,192, .3);
+    height: 100%;
+    border-radius: 25px;
+    padding: 10px;
+}
+
 .icon {
     width: 30px;
     padding-top: 10px;
 }
 
 .nav-wrapper {
-    background: #1D2B64;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F8CDDA, #1D2B64); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #1D2B64; 
+    background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64); 
+    background: linear-gradient(to right, #F8CDDA, #1D2B64); 
 }
 
 body {
     background-image: url("../images/brushed_alu.png");
-}
-
-.logo {
-    height: 75px;
 }
 
 .sidenavPic {
@@ -44,6 +47,24 @@ h1 {
 .tabs {
     background: 0;
     border-bottom: solid 1px black;
+}
+
+.tabs .tab a{
+    color:#000;
+}
+
+.tabs .tab a:hover {
+    background-color: #a694ae;
+    color: white;
+}
+
+.tabs .tab a.active {
+    background-color: #a694ae !important;
+    color: white;
+}
+
+.tabs .indicator {
+    background-color:#54557f;
 }
 
 .myPic {
@@ -148,7 +169,7 @@ footer {
 .skillName {
     font-size: 25px;
     display: inline-block;
-    width: 250px;
+    width: 225px;
     margin-left: 50px;
 }
 
@@ -158,4 +179,3 @@ footer {
     margin-right: auto;
     margin-left: auto;
 }
-
