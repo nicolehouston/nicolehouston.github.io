@@ -1,8 +1,10 @@
-.container {
-    background-color: rgba(197,173,192, .3);
+.content {
+    background-color: rgba(247,250,238, 0.9);
     height: 100%;
     border-radius: 25px;
     padding: 10px;
+    width: 85%;
+    margin-bottom: 20%;
 }
 
 .icon {
@@ -11,13 +13,15 @@
 }
 
 .nav-wrapper {
-    background: #1D2B64; 
-    background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64); 
-    background: linear-gradient(to right, #F8CDDA, #1D2B64); 
+    background: #97c0b0;
 }
 
-body {
-    background-image: url("../images/brushed_alu.png");
+html {
+    background: url("../images/background-background-image-clear-sky-1054222.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .sidenavPic {
@@ -54,17 +58,17 @@ h1 {
 }
 
 .tabs .tab a:hover {
-    background-color: #a694ae;
+    background-color: #506f6c;
     color: white;
 }
 
 .tabs .tab a.active {
-    background-color: #a694ae !important;
+    background-color: #506f6c !important;
     color: white;
 }
 
 .tabs .indicator {
-    background-color:#54557f;
+    background-color:#1f3d3a;
 }
 
 .myPic {
@@ -95,7 +99,7 @@ h1 {
 }
 
 footer {
-    background-color: #54557f;
+    background-color: #506f6c;
     height: 40px;
     position: fixed;
     bottom: 0;
@@ -128,7 +132,7 @@ footer {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #54557f;
+    background-color: #506f6c;
 }
 
 .card-image:hover .overlay {
@@ -157,20 +161,6 @@ footer {
     width: 300px;
     margin: auto;
     margin-top: 20px;
-}
-
-.skillIcon {
-    width: 50px;
-    vertical-align: middle;
-    margin-right: 5px;
-    margin-bottom: 10px;
-}
-
-.skillName {
-    font-size: 25px;
-    display: inline-block;
-    width: 225px;
-    margin-left: 50px;
 }
 
 .myLogo {
