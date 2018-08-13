@@ -90,7 +90,12 @@ h1 {
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    width: 90%;
+    width: 100%;
+}
+
+.card-content {
+    height: 200px;
+    overflow-y: scroll;
 }
 
 .card:hover {
@@ -169,3 +174,4 @@ footer {
     margin-right: auto;
     margin-left: auto;
 }
+
