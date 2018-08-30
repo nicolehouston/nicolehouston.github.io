@@ -1,8 +1,10 @@
 $(document).ready(function(){
     $('.carousel').carousel();
     $('.sidenav').sidenav();
-    $('.tabs').tabs();
-    $('.parallax').parallax();
+
+    $('#myName').delay(600).animate({'opacity':'1'},800);
+    $('.title').delay(900).animate({'opacity': '1'},800);
+    $('.myLogo').delay(300).animate({'opacity': '1'},800);
 
 });
       

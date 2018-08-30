@@ -12,138 +12,118 @@
 </head>
 <body>
 
-    <nav> 
-        <div class="nav-wrapper">
-            <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="black-text material-icons">menu</i></a>
-        </div>
+    <nav class="transparent z-depth-0">
+    <div class="nav-wrapper">
+        <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="black-text material-icons">menu</i></a>
+        <a href="#contact" class="link right black-text">Contact</a>
+        <a href="#skills" class="link right black-text">Skills</a>
+        <a href="#projects" class="link right black-text">Projects</a>
+        <a href="#about" class="link right black-text">About</a>
+    </div>
     </nav>
 
     <ul id="slide-out" class="sidenav">
         <li><div class="user-view">
           <div class="background">
-            <img class="sidenavPic" src="assets/images/profileBack.jpg">
+            <img class="sidenavPic" src="assets/images/assorted-background-board-985287.jpg">
           </div>
           <a href="#"><img class="circle profilePic" src="assets/images/profilePic.jpg"></a>
-          <strong><p><span class="black-text name">Nicole Houston</span></p></strong>
+          <strong><p><span class="white-text name">Nicole Houston</span></p></strong>
         </div></li>
         <li><a href="https://www.linkedin.com/in/nicoleahouston" target="_blank"><img class="icon" src="assets/images/linkedin.png"></a></li>
         <li><a href="https://github.com/nicolehouston" target="_blank"><img class="icon" src="assets/images/github.png"></a></li>
         <li><a href="mailto:nhoustonwebdev@gmail.com"><img class="icon" src="assets/images/envelope.png"></a></li>
-        <li><div class="divider"></div></li>
         <p></p>
     </ul>
 
+    <div>
     <img class="myLogo" src="assets/images/Logo.png">
-    <h1>-Nicole Houston-</h1>
+    <h2 id="myName">-Nicole Houston-</h2>
     <p class="title">Full Stack Web Developer</p>
-
-    <div class="row content">
-            <div class="col s12">
-                <ul class="tabs">
-                    <li class="tab"><a href="#about"><strong>About</strong></a></li>
-                    <li class="tab"><a href="#projects"><strong>Projects</strong></a></li>
-                    <li class="tab"><a href="#skills"><strong>Skills</strong></a></li>
-                    <li class="tab"><a href="#social"><strong>Socials</strong></a></li>
-                </ul>
-            </div>
-            <div id="about" class="col s12">
-                <div class="col s3 hide-on-med-and-up"></div>
-                <div class="col s6 m3">
-                    <img class="circle myPic" src="assets/images/profilePic.jpg" alt="profile pic">
-                </div>
-                <div class="col s3 hide-on-med-and-up"></div>
-                <div class="col s12 m9">
-                    <p class="aboutMe">
-                            As a former math teacher, I thrive on problem solving and learning new concepts quickly as well as communicating 
-                            what I've learned in an easy to understand language. I also enjoy expressing myself artistically by creating beautiful 
-                            projects that positively impact the world around me. It is the combination of these passions that led me in my pursuit 
-                            to take part in UC Irvine’s Coding Bootcamp and ultimately seek to become a Full Stack Web Developer. 
-                            There is nothing more rewarding to me than taking an idea and making it a reality.
-
-                    </p>
-                </div>
-            </div>
-            <div id="projects" class="col s12">
-                <div class="col s12 m6 l4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="projectPic" src="assets/images/circleOfFriends.png">
-                            <div class="overlay">
-                                <span class="projectTitle">Circle of Friends</span>
-                            </div>
-                        </div>
-                        <div class="card-content">
-                            <p>Web application that uses geolocation to notify users of contacts they know in a 
-                                previously saved area upon entering that specific location.</p>
-                            <br>
-                            <p>Technologies: Javascript, Node, Express, MySQL, jQuery, Google Maps API, HTML Geolocation</p>
-                        </div>
-                        <div class="card-action">
-                            <a class="projectLink black-text" href="https://circle-of-friends.herokuapp.com/" target="_blank"><strong>Heroku</strong></a>
-                            <a class="projectLink black-text" href="https://github.com/nicolehouston/Contextual-Geolocation" target="_blank"><strong>GitHub</strong></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m6 l4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="projectPic" src="assets/images/myCodeCard.png">
-                            <div class="overlay">
-                                <span class="projectTitle">My Code Card</span>
-                            </div>
-                        </div>
-                        <div class="card-content">
-                                <p>Organized, nested knowledge repository for managing domain specific resources.</p>
-                                <br>
-                                <p>Technologies: React.js, Express, Node, MongoDB</p>
-                        </div>
-                        <div class="card-action">
-                            <a class="projectLink black-text" href="https://my-code-card.herokuapp.com/" target="_blank"><strong>Heroku</strong></a>
-                            <a class="projectLink black-text" href="https://github.com/nicolehouston/CodeCards" target="_blank"><strong>GitHub</strong></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m6 l4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img class="projectPic" src="assets/images/doomsday.png">
-                            <div class="overlay">
-                                <span class="projectTitle">Doomsday Database</span>
-                            </div>
-                        </div>
-                        <div class="card-content">
-                                <p>Web application that displays the locations of fallen meteors on a map based on a given year.</p>
-                                <br>
-                                <p>Technologies: Javascript, jQuery, Mapbox API, NASA API</p>
-                        </div>
-                        <div class="card-action">
-                            <a class="projectLink black-text" href="https://nicolehouston.github.io/project1-1/" target="_blank"><strong>Deployed</strong></a>
-                            <a class="projectLink black-text" href="https://github.com/nicolehouston/project1-1" target="_blank"><strong>GitHub</strong></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="skills" class="col s12">
-                <ul>
-                    <iframe frameborder="0" scrolling="no" src="https://uci.credly.com/embed.html#/?member_badge_id=15104431" width="180" height="230"></iframe>
-                    <iframe frameborder="0" scrolling="no" src="https://uci.credly.com/embed.html#/?member_badge_id=15104421" width="180" height="230"></iframe>
-                    <iframe frameborder="0" scrolling="no" src="https://uci.credly.com/embed.html#/?member_badge_id=15104408" width="180" height="230"></iframe>
-                    <iframe frameborder="0" scrolling="no" src="https://uci.credly.com/embed.html#/?member_badge_id=15104395" width="180" height="230"></iframe>
-                    <iframe frameborder="0" scrolling="no" src="https://uci.credly.com/embed.html#/?member_badge_id=15104384" width="180" height="230"></iframe>
-                </ul>
-            </div>
-            <div id="social" class="col s12">
-                <div class="socialIcons">
-                <a href="https://www.linkedin.com/in/nicoleahouston" target="_blank"><img class="iconBig" src="assets/images/linkedin.png"></a>
-                <a href="https://github.com/nicolehouston" target="_blank"><img class="iconBig" src="assets/images/github.png"></a>
-                <a href="mailto:nhoustonwebdev@gmail.com"><img class="iconBig" src="assets/images/envelope.png"></a>
-                </div>
-            </div>
-
     </div>
 
-    <footer></footer>
+    <div class="divider"></div>
 
+    <div class="row container">
+        <div id="about" class="col s12">
+        <h4>About</h4>
+            <div class="col s3 hide-on-med-and-up"></div>
+            <div class="col s6 m3">
+                <img class="circle myPic" src="assets/images/profilePic.jpg" alt="profile pic">
+            </div>
+            <div class="col s3 hide-on-med-and-up"></div>
+            <div class="col s12 m9">
+                <p class="aboutMe">
+                        As a former math teacher, I thrive on problem solving and learning new concepts quickly as well as communicating 
+                        what I've learned in an easy to understand language. I also enjoy expressing myself artistically by creating beautiful 
+                        projects that positively impact the world around me. It is the combination of these passions that led me in my pursuit 
+                        to take part in UC Irvine’s Coding Bootcamp and ultimately seek to become a Full Stack Web Developer. 
+                        There is nothing more rewarding to me than taking an idea and making it a reality.
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row container">
+            <div id="projects" class="carousel col s12">
+            <h4>Projects</h4>
+                <div class="col4 card carousel-item">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/circleOfFriends.png">
+                    </div>
+                    <div class="card-content">
+                        <a class="projectLink red-text" href="https://circle-of-friends.herokuapp.com/" target="_blank"><strong>Heroku</strong></a>
+                        <a class="projectLink blue-text right" href="https://github.com/nicolehouston/Contextual-Geolocation" target="_blank"><strong>GitHub</strong></a>
+                    </div>
+                </div>
+                <div class="col4 card carousel-item">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/myCodeCard.png">
+                    </div>
+                    <div class="card-content">
+                        <a class="projectLink red-text" href="https://my-code-card.herokuapp.com/" target="_blank"><strong>Heroku</strong></a>
+                            <a class="projectLink blue-text right" href="https://github.com/nicolehouston/My-Code-Card" target="_blank"><strong>GitHub</strong></a>
+                    </div>
+                </div>
+                <div class="col4 card carousel-item">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/images/doomsday.png">
+                    </div>
+                    <div class="card-content">
+                        <a class="projectLink red-text" href="https://nicolehouston.github.io/Doomsday-Database/" target="_blank"><strong>Live</strong></a>
+                        <a class="projectLink blue-text right" href="https://github.com/nicolehouston/Doomsday-Database" target="_blank"><strong>GitHub</strong></a>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="row container">
+            <div id="skills" class="col s12"></div>
+            <h4>Skills</h4>
+            <a class="waves-effect waves-light btn" href="https://uci.credly.com/members/2498285" target="_blank">See My Badges!</a>
+            <ul>
+            <li class="skills">-HTML/CSS-</li>
+            <li class="skills">-JavaScript and jQuery-</li>
+            <li class="skills">-SQL and noSQL Databases-</li>
+            <li class="skills">-React.js-</li>
+            <li class="skills">-Node.js-</li>
+            <li class="skills">-Express-</li>
+            </ul>
+    </div>
+
+    <div class="row container">
+        <div id="contact" class="col s12"></div>
+        <h4>Contact</h4>
+        <div class="socialIcons">
+            <a href="https://www.linkedin.com/in/nicoleahouston" target="_blank"><img class="iconBig" src="assets/images/linkedin.png"></a>
+            <a href="https://github.com/nicolehouston" target="_blank"><img class="iconBig" src="assets/images/github.png"></a>
+            <a href="mailto:nhoustonwebdev@gmail.com"><img class="iconBig" src="assets/images/envelope.png"></a>
+        </div>
+    </div>
+    
+
+    </div>  
     <script
         src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
